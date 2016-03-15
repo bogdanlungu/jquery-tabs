@@ -1,0 +1,57 @@
+.noJs ul#tabs {
+  line-height: 1.5;
+  margin: 1.125em 0;
+}
+
+.yesJs .tab-section {
+  display: none;
+}
+
+.yesJs ul#tabs {
+  background: #a0d468;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  font-size: 1.5em;
+  margin: 1.5em 0 0 0;
+}
+
+.yesJs ul#tabs:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.yesJs ul#tabs li {
+  display: block;
+  float: left;
+}
+
+.yesJs ul#tabs a {
+  border-right: 1px solid #8cc152;
+  color: white;
+  display: block;
+  padding: 0.5em 1.125em;
+  text-decoration: none;
+}
+
+.yesJs ul#tabs li:first-child a {
+  border-top-left-radius: 7px;
+}
+
+.yesJs ul#tabs a:hover {
+  background: #8cc152;
+}
+
+.yesJs .tab-section {
+  background: white;
+  color: #444;
+  padding: 2em;
+}
+
+.yesJs .tab-section h2 {
+  margin-top: 0;
+}
+
+.yesJs ul#tabs a.current {
+  background: #4fc1e9;
+}
